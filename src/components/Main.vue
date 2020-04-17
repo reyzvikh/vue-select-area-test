@@ -19,5 +19,6 @@
     background-color: #f1f1f1;
     height: 600px;
     width: 800px;
+    background-image: url("../assets/sky.png");
   }
 </style>

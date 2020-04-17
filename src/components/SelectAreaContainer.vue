@@ -236,7 +236,9 @@
   .corner_top-left, .corner_top-right, .corner_bottom-right, .corner_bottom-left {
     height: 100%;
     width: 2px;
-    background-color: red;
+    background-color: black;
+    opacity: 0.2;
+    /*background-color: red;*/
   }
 
   .corner_top-left, .corner_bottom-right {
@@ -251,20 +253,25 @@
     height: 100%;
     width: 2px;
     cursor: col-resize;
-    background-color: blue;
+    background-color: black;
+    opacity: 0.2;
+    /*background-color: blue;*/
   }
 
   .top, .bottom {
     height: 100%;
     width: calc(100% - 4px);
     cursor: row-resize;
-    background-color: blue;
+    background-color: black;
+    opacity: 0.2;
+    /*background-color: blue;*/
   }
 
   .inner {
     height: 100%;
     width: calc(100% - 4px);
-    background-color: white;
+    background-color: black;
+    opacity: 0.2;
     cursor: pointer;
   }
 </style>
